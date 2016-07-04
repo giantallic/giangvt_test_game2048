@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1E8008E3-C0BA-4F65-BE63-7630D71253C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E5919820-9BF3-47CB-8B61-26AF4E15E358}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Game2048", "src\Game2048\Game2048.xproj", "{1E48791B-F08C-4831-924D-D01D1857EDA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E48791B-F08C-4831-924D-D01D1857EDA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E48791B-F08C-4831-924D-D01D1857EDA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E48791B-F08C-4831-924D-D01D1857EDA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E48791B-F08C-4831-924D-D01D1857EDA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1E48791B-F08C-4831-924D-D01D1857EDA5} = {1E8008E3-C0BA-4F65-BE63-7630D71253C3}
+	EndGlobalSection
+EndGlobal
