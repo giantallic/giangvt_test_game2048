@@ -11,6 +11,7 @@ namespace Game2048
     {
         public static void Main(string[] args)
         {
+            // test
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
